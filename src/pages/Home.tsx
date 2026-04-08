@@ -5,8 +5,8 @@ import { usePortfolio } from '@/hooks/usePortfolio';
 import { STATS } from '@/constants';
 import { Layout, Code, PenTool, Mail, Github, Twitter, Instagram, ArrowRight, ExternalLink, Menu, X, Camera, Smartphone, Globe, Database, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card } from "../components/ui/card";
- 
+import { Card, CardContent } from '@/components/ui/card';
+
 const iconMap: Record<string, any> = {
   Layout,
   Code,
